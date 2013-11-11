@@ -1,0 +1,69 @@
+/* Large desktop */
+@media (min-width: 980px) { 
+ .linediv-l {
+   border-right: 1px white solid;
+  }
+ .linediv-r {
+   border-left: 1px white solid;
+ }
+}
+
+/* Landscape phones and down */
+@media (max-width: 600px) { 
+ .hero-unit {
+   padding: 0;
+ }
+ .copy {
+   padding: 2.5% 10%;
+ }
+ .linediv-l {
+   border-bottom: 1px white solid;
+ }
+ .linediv-r {
+   border-top: 1px white solid;
+ }
+}
+@media (min-width: 1200px) { 
+  .container, .navbar-fixed-top .container {
+    width: 940px;
+  }
+}
+/* ------------------------------------------------------------------------------
+  M A I N
+--------------------------------------------------------------------------------- */
+header {
+  margin-top: 50px;
+}
+/* ------------------------------------------------------------------------------
+  M A I N
+--------------------------------------------------------------------------------- */
+.section {
+  padding-top: 10px;
+}
+/* ------------------------------------------------------------------------------
+  F O O T E R
+--------------------------------------------------------------------------------- */
+.footer {
+  border-top: 1px solid #E5E5E5;
+  padding: 10px;
+  margin: 30px 0 0 0;
+  font-size: 14px;
+  color: inherit;
+  background-color: #f5f5f5;
+}
+.footer-list ul {
+  list-style: none;
+  margin: 0;
+}
+.footer-list ul li {
+  line-height: 25px;
+}
+/* ------------------------------------------------------------------------------
+  M I S C
+--------------------------------------------------------------------------------- */
+[class^="icon-"] {
+  padding: 0 10px;
+}
+.text-primary {
+    color: #DD4814;
+}
